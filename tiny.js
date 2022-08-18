@@ -2,7 +2,6 @@ const content = document.querySelector(".content");
 const inhabitantsOfTheWorld = [
   (man = {
     species: "human",
-    organism: "man",
     name: "Benjamin Geza Affleck-Bold",
     gender: "male",
     legs: 2,
@@ -11,7 +10,6 @@ const inhabitantsOfTheWorld = [
   }),
   (woman = {
     species: "human",
-    organism: "woman",
     name: "Lady Diana",
     gender: "Famele",
     legs: 2,
@@ -20,7 +18,6 @@ const inhabitantsOfTheWorld = [
   }),
   (dog = {
     species: "dog",
-    organism: "dog",
     name: "Hachiko: The most loyal friend",
     gender: "male",
     legs: 4,
@@ -29,8 +26,6 @@ const inhabitantsOfTheWorld = [
   }),
   (cat = {
     species: "cat",
-    organism: "cat",
-    name: "Larry",
     gender: "male",
     legs: 4,
     hands: 0,
@@ -38,7 +33,6 @@ const inhabitantsOfTheWorld = [
   }),
   (catWoman = {
     species: "cathuman",
-    organism: "catWoman",
     name: "Halle Berry",
     gender: "Famele",
     legs: 2,
@@ -50,7 +44,6 @@ Object.setPrototypeOf(catWoman, cat);
 
 const valueInhabitantsWorld = [
   "species",
-  "organism",
   "name",
   "gender",
   "legs",
